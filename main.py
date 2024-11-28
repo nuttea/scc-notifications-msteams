@@ -32,6 +32,7 @@ def pretty_print_contacts(contacts):
                 for key, value in contact.items():
                     #print(f"  - {key.capitalize()}: {value}")  # Capitalize key
                     result += f"  - {key.capitalize()}: {value}\n"
+                result += "\n"
     return result
 
 
